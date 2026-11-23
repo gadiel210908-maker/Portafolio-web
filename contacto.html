@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio personal de Creando Web">
+  <title>Contacto | Creando Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark cabecera" aria-label="Principal">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">Creando Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html" aria-current="page">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container py-4">
+    <section class="py-3">
+      <h1>Contacto</h1>
+      <p>Escríbeme y te responderé lo antes posible.</p>
+      <form action="#" method="post" class="col-lg-8">
+        <fieldset class="border rounded p-4 bg-white">
+          <legend class="float-none w-auto px-2 fs-5">Tu mensaje</legend>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="correo" name="correo" required>
+          </div>
+          <div class="mb-3">
+            <label for="motivo" class="form-label">Motivo</label>
+            <select class="form-select" id="motivo" name="motivo">
+              <option>Consulta general</option>
+              <option>Propuesta de proyecto</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">Enviar mensaje</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <footer class="pie text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Decox. Sitio creado con HTML5, CSS3 y Bootstrap 5.0.2.</p>
+    </div>
+  </footer>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

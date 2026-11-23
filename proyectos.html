@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio personal de Creando Web">
+  <title>Proyectos | Creando Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark cabecera" aria-label="Principal">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">Creando Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link active" href="proyectos.html" aria-current="page">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container py-4">
+    <section class="py-3">
+      <h1>Proyectos</h1>
+      <p>Resumen de lo que he construido y en qué estado está cada trabajo.</p>
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle">
+          <caption>Mis proyectos</caption>
+          <thead class="table-dark">
+            <tr><th scope="col">Proyecto</th><th scope="col">Tecnologías</th><th scope="col">Estado</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Portafolio personal</td><td>HTML5, CSS3, Bootstrap</td><td><span class="badge bg-success">Publicado</span></td></tr>
+            <tr><td>Calculadora Básica</td><td>HTML5, CSS3, JavaScript</td><td><span class="badge bg-warning text-dark">En proceso</span></td></tr>
+            <tr><td>Menú de un restaurante</td><td>HTML5, Bootstrap</td><td><span class="badge bg-secondary">Planeado</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <hr>
+    <section class="py-3">
+      <h2>Proyecto destacado: portafolio personal</h2>
+      <article class="card tarjeta">
+        <div class="card-body">
+          <h3 class="h5 card-title">Este sitio web</h3>
+          <p class="card-text">Sitio de cuatro páginas con etiquetas semánticas, una tabla, un formulario, estilos propios y Bootstrap 5.0.2. Está alojado en GitHub Pages.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="pie text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Decox. Sitio creado con HTML5, CSS3 y Bootstrap 5.0.2.</p>
+    </div>
+  </footer>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

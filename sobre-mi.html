@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio personal de Creando Web">
+  <title>Sobre mí | Decox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark cabecera" aria-label="Principal">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">Creando Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sobre-mi.html" aria-current="page">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container py-4">
+    <section class="py-3">
+      <h1>Sobre mí</h1>
+      <article class="row align-items-center g-4 perfil">
+        <div class="col-md-4 text-center">
+          <img src="img/foto.jpg" alt="Foto de perfil de Creando Web" width="180" height="180" class="rounded-circle">
+        </div>
+        <div class="col-md-8">
+          <p>Soy estudiante de Ingeniería de Ciencia de Datos e IA en SENATI. Me interesa crear páginas web accesibles y fáciles de usar.</p>
+          <p>Cuando no estoy programando, me gusta escuchar música.</p>
+        </div>
+      </article>
+    </section>
+    <hr>
+    <section class="py-3">
+      <h2>Habilidades</h2>
+      <ul class="list-group">
+        <li class="list-group-item">HTML5: estructura semántica, tablas y formularios</li>
+        <li class="list-group-item">CSS3: modelo de caja, selectores y colores</li>
+        <li class="list-group-item">Bootstrap 5: diseño en cuadrícula y componentes</li>
+        <li class="list-group-item">Git y GitHub: control de versiones y publicación</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="pie text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Decox. Sitio creado con HTML5, CSS3 y Bootstrap 5.0.2.</p>
+    </div>
+  </footer>
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
